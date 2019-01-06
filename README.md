@@ -13,7 +13,7 @@ Introduction to courses
 introduction datacamp
 Screenshot of completed datacamp courses
 
-[Link to Datacamp document](Datacamp.md)
+[Link to Datacamp document](Courses/Datacamp.md)
 
 -|Datacamp courses |-
 ---|:---:|---
@@ -23,7 +23,7 @@ Screenshot of completed datacamp courses
 
 ###Coursera 
 introduction
-[Link to Coursera document](Coursera.md)<br>
+[Link to Coursera document](Courses/Coursera.md)<br>
 
 ___
 
