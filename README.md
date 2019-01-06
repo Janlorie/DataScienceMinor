@@ -1,16 +1,16 @@
 # Data Science Minor Personal Portfolio
-This Github repository serves as personal portfolio for my Data science minor. The minor is taught at 
+This Github repository serves as personal portfolio for my data science minor. The minor is taught at 
 the Hague University of Applied Sciences and requires a personal portfolio that includes the contributions
-to the project aswell as individual efforts. 
+to the project as well as individual efforts. 
 
 # Readers guide 
 This page includes an introduction to the subjects that are mentioned in this repository. 
-It is composed of three components. The courses, the Data science components and the project specific items. 
+It is composed of three components. The courses, the data science components and the project specific items. 
 
 
 ## Courses
 The courses that I have done for this minor have 2 sources, one being Datacamp and the other being Coursera. 
-These courses have both taught me a lot about datascience, and therefore helped me with the progress I have 
+These courses have both taught me a lot about data science, and therefore helped me with the progress I have 
 made in the field and the project.
 
 ### Datacamp
@@ -29,49 +29,55 @@ Screenshot of completed datacamp courses
 <br>
 
 ### Coursera 
-Coursera's approach to learning Data science was far more theoretical, this was a perfect combination with 
+Coursera's approach to learning data science was far more theoretical, this was a perfect combination with 
 Datacamp. Learning when to use instead of how to use, provided a lot of insight and sped up the 
 learning process. The specific course is Machine Learning by Andrew NG, the founder of Coursera. 
 
 [Link to Coursera document](Courses/Coursera.md)<br>
 
 
-
 ## Data Science Components
-The components mentioned below are subcategories of datascience
+The components mentioned below are subcategories of data science
 of which the function will be explained by examples. These subcategories have either been a part of 
 the project or have been experimented with individually. 
 
 ### Data collection 
-introduction
+Data Collection is the part of data science of retrieving data point. This could be connecting to an API, 
+Manually collecting data or in the case of our project: retrieving data manually from the CBS framework.
+
+Data collection is the first step in the process, you need to have data to perform any actions on it. 
 
 [link to data collection document](Examples/Data%20Collection.md)<br>
 
 ### Data Preparation
-introduction
+Data Preparation is the art of editing your data in such a way that you can create algorithms for them. 
+This can be just removing empty cells to converting words to vectors.
 
 [link to Data Preparation document](Examples/Data%20Preparation.md)<br>
 
 ### Data Visualisation
-introduction
+The visualization of data has a very important role in data science. 
+It can, if used right, communicate information clearly. 
+It can provide insight that would be complicated to retrieve from the data itself.
 
 [link to Data Visualisation document](Examples/Data%20Visualisation.md)<br>
 
 ### Diagnostics of the Learning Process
-introduction
+In this chapter I will discuss the data science learning process. 
+Reflecting on how and why specific choices were made by me and my project group.
 
 [link to Diagnostics document](Examples/Diagnostics%20of%20the%20Learning%20Process.md)<br>
 
 ### Evaluation
-introduction
+Evaluation of a Model/Visualization/Preparation will be discussed in this chapter. It will include most 
+of the other chapters so if you have no basic knowledge on the topics, I advice you to check them first
 
 [link to Evaluation document](Examples/Evaluation.md)<br>
 
 ### Predictive Models
-introduction
+This chapter I will discuss Predictive modelling, as used in the project, aswell as a few project-unrelated examples.
 
 [link to Predictive Models document](Examples/Predictive%20Models.md)<br>
-
 
 
 ## Project
