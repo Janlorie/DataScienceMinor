@@ -1,57 +1,68 @@
 # Data Science Minor Personal Portfolio
-This github repository serves as personal portfolio for my Data science minor. The minor is taught at the 
-Hague University of Applied Sciences and requires a personal portfolio that includes the contributions to the project 
-aswell as individual efforts. 
+This Github repository serves as personal portfolio for my Data science minor. The minor is taught at 
+the Hague University of Applied Sciences and requires a personal portfolio that includes the contributions
+to the project aswell as individual efforts. 
 
-#Readers guide 
+# Readers guide 
 This page includes an introduction to the subjects that are mentioned in this repository. 
+It is composed of three components. The courses, the Data science components and the project specific items. 
 ___
-##Courses
-Introduction to courses
 
-###Datacamp
-introduction datacamp
-Screenshot of completed datacamp courses
+## Courses
+The courses that I have done for this minor have 2 sources, one being Datacamp and the other being Coursera. 
+These courses have both taught me a lot about datascience, and therefore helped me with the progress I have 
+made in the field and the project.
+
+### Datacamp
+Starting with datacamp. The approach to these courses was very practical. 
+They usually taught e very specific part of data science and how you could implement this in code. 
+Already having some experience in Python, some of there courses were a nice refresher 
+while others taught me a lot.
+
+In the datacamp document I explain per course what every one of 
+them has served me and how it helped me with the project.
 
 [Link to Datacamp document](Courses/Datacamp.md)
 
--|Datacamp courses |-
----|:---:|---
--|![alt text](Resources/Images/CompletedDatacampCourses.png "Completed Datacamp Courses")|-
-
+Screenshot of completed datacamp courses
+![alt text](Resources/Images/CompletedDatacampCourses.png "Completed Datacamp Courses")
 <br>
 
-###Coursera 
-introduction
+### Coursera 
+Coursera's approach to learning Data science was far more theoretical, this was a perfect combination with 
+Datacamp. Learning when to use instead of how to use, provided a lot of insight and sped up the 
+learning process. The specific course is Machine Learning by Andrew NG, the founder of Coursera. 
+
 [Link to Coursera document](Courses/Coursera.md)<br>
 
 ___
 
-##Data Science Components
+## Data Science Components
 The components mentioned below are subcategories of datascience
-of which the function will be explained by examples.
+of which the function will be explained by examples. These subcategories have either been a part of 
+the project or have been experimented with individually. 
 
-###Data collection 
+### Data collection 
 introduction
 [link to data collection document](Examples/Data%20Collection.md)<br>
 
-###Data Preparation
+### Data Preparation
 introduction
 [link to Data Preparation document](Examples/Data%20Preparation.md)<br>
 
-###Data Visualisation
+### Data Visualisation
 introduction
 [link to Data Visualisation document](Examples/Data%20Visualisation.md)<br>
 
-###Diagnostics of the Learning Process
+### Diagnostics of the Learning Process
 introduction
 [link to Diagnostics document](Examples/Diagnostics%20of%20the%20Learning%20Process.md)<br>
 
-###Evaluation
+### Evaluation
 introduction
 [link to Evaluation document](Examples/Evaluation.md)<br>
 
-###Predictive Models
+### Predictive Models
 introduction
 [link to Predictive Models document](Examples/Predictive%20Models.md)<br>
 
@@ -60,8 +71,9 @@ ___
 ## Project
 ### Presentations
 Every week the progress that the project group made, had to be presented to our peers and teachers. 
-These presentations were done in turns, usually by 2 presenters. I presented about every other presentation. 
-The making of the presentation and processing of feedback after the presentations has been a joint performance. 
+These presentations were done in turns, usually by 2 presenters. I presented about every other
+presentation. The making of the presentation and processing of feedback after the presentations has 
+been a joint performance. 
 
 School Week | Datum | Link
 :---:|:---:|:---:
@@ -82,6 +94,6 @@ School Week | Datum | Link
 17| 21-12-2018 | [link to presentation](Resources/Presentations/2018.12.21 CBS Presentatie.pptx)
 
 
-###Extra
+### Extra
 introduction
 [link to extra document](Examples/Other.md)
