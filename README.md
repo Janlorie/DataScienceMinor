@@ -82,22 +82,22 @@ presentation. The making of the presentation and processing of feedback after th
 been a joint performance. 
 
 School Week | Datum | Link
-:---:|:---:|:---:
-1 | 31-08-2018 | [link to presentation](/Resources/Presentations/2018.08.31 CBS Presentatie intro.pptx)
-2 | 07-09-2018 | [link to presentation](/Resources/Presentations/2018.09.07 CBS Presentatie.pptx)
-3 | 14-09-2018 | [link to presentation](/Resources/Presentations/2018.09.14 CBS Presentatie.pptx)
-4 | 21-09-2018 | [link to presentation](/Resources/Presentations/2018.09.21 CBS Presentatie.pptx)
-5 | 28-09-2018 | [link to presentation](/Resources/Presentations/2018.09.28 CBS Presentatie.pptx)
-6 | 05-10-2018 | [link to presentation](/Resources/Presentations/2018.10.05 CBS Presentatie.pptx)
-7 | 12-10-2018 | [link to presentation](/Resources/Presentations/2018.10.12 CBS Presentatie.pptx)
-8 | 19-10-2018 | [link to presentation](/Resources/Presentations/2018.10.19 CBS Presentatie.pptx)
-9 | 02-11-2018 | [link to presentation](/Resources/Presentations/2018.11.02 CBS Presentatie.pptx)
-10 | 09-11-2018 | [link to presentation](/Resources/Presentations/2018.11.09 CBS Presentatie.pptx)
-11 | 16-11-2018 | [link to presentation](/Resources/Presentations/2018.11.16 CBS Presentatie.pptx)
-12 | 30-11-2018 | [link to presentation](/Resources/Presentations/2018.11.30 CBS Presentatie.pptx)
-14 | 07-12-2018 | [link to presentation](/Resources/Presentations/2018.12.07 CBS Presentatie.pptx)
-15 | 17-12-2018 | [link to presentation](/Resources/Presentations/2018.12.17 CBS Presentatie.pptx)
-17| 21-12-2018 | [link to presentation](/Resources/Presentations/2018.12.21 CBS Presentatie.pptx)
+:---:       |:---:  |:---:
+1   | 31-08-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.08.31%C%Presentatie%intro.pptx)
+2   | 07-09-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.09.07%C%Presentatie.pptx)
+3   | 14-09-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.09.14%C%Presentatie.pptx)
+4   | 21-09-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.09.21%C%Presentatie.pptx)
+5   | 28-09-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.09.28%C%Presentatie.pptx)
+6   | 05-10-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.10.05%C%Presentatie.pptx)
+7   | 12-10-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.10.12%C%Presentatie.pptx)
+8   | 19-10-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.10.19%C%Presentatie.pptx)
+9   | 02-11-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.11.02%C%Presentatie.pptx)
+10  | 09-11-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.11.09%C%Presentatie.pptx)
+11  | 16-11-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.11.16%C%Presentatie.pptx)
+12  | 30-11-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.11.30%C%Presentatie.pptx)
+14  | 07-12-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.12.07%C%Presentatie.pptx)
+15  | 17-12-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.12.17%C%Presentatie.pptx)
+17  | 21-12-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.12.21%C%Presentatie.pptx)
 
 
 ### Extra
