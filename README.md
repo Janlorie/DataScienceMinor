@@ -25,7 +25,7 @@ them has served me and how it helped me with the project.
 [Link to Datacamp document](Courses/Datacamp.md)
 
 Screenshot of completed datacamp courses
-![alt text](Resources/Images/CompletedDatacampCourses.png "Completed Datacamp Courses")
+![alt text](Resources/Images/CompletedDatacamp.png "Completed Datacamp Courses")
 <br>
 
 ### Coursera 

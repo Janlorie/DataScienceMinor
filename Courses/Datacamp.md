@@ -7,7 +7,7 @@ one or two chapters, I decided to complete all the partial courses.
 Some of these courses contributed to the project. Others weren't relevant to the project but did 
 expand our knowledge on Data science as a whole. Below is a screenshot of the completed courses.
 
-![alt text](../Resources/Images/CompletedDatacampCourses.png)
+![alt text](../Resources/Images/CompletedDatacamp.png)
 
 ## Importing Data in Python (Part 1)
 https://www.datacamp.com/courses/importing-data-in-python-part-1
