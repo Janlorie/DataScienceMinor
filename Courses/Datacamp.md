@@ -18,7 +18,7 @@ https://www.datacamp.com/courses/importing-data-in-python-part-1
 ### Personal Improvement
 
 
-___
+
 ## Introduction to Python
 https://www.datacamp.com/courses/intro-to-python-for-data-science
 
@@ -28,7 +28,7 @@ https://www.datacamp.com/courses/intro-to-python-for-data-science
 ### Personal Improvement
 
 
-___
+
 ## Pandas Foundations
 https://www.datacamp.com/courses/pandas-foundations 
 
@@ -39,7 +39,7 @@ https://www.datacamp.com/courses/pandas-foundations
 
 
 
-___
+
 ## Introduction to Data Visualization with Python
 https://www.datacamp.com/courses/introduction-to-data-visualization-with-python
 
@@ -50,7 +50,7 @@ https://www.datacamp.com/courses/introduction-to-data-visualization-with-python
 
 
 
-___
+
 ## Statistical Thinking in Python (Part 1)
 https://www.datacamp.com/courses/statistical-thinking-in-python-part-1
 
@@ -61,7 +61,7 @@ https://www.datacamp.com/courses/statistical-thinking-in-python-part-1
 
 
 
-___
+
 ## Supervised Learning with scikit-learn
 https://www.datacamp.com/courses/supervised-learning-with-scikit-learn
 
@@ -72,7 +72,7 @@ https://www.datacamp.com/courses/supervised-learning-with-scikit-learn
 
 
 
-___
+
 ## Cleaning Data in Python
 https://www.datacamp.com/courses/cleaning-data-in-python
 
@@ -83,7 +83,7 @@ https://www.datacamp.com/courses/cleaning-data-in-python
 
 
 
-___
+
 ## Python Data Science Toolbox (Part 1)
 https://www.datacamp.com/courses/python-data-science-toolbox-part-1
 
@@ -94,7 +94,7 @@ https://www.datacamp.com/courses/python-data-science-toolbox-part-1
 
 
 
-___
+
 ## Python Data Science Toolbox (Part 2)
 https://www.datacamp.com/courses/python-data-science-toolbox-part-2
 
@@ -105,7 +105,7 @@ https://www.datacamp.com/courses/python-data-science-toolbox-part-2
 
 
 
-___
+
 ## Intermediate Python for Data Science
 https://www.datacamp.com/courses/intermediate-python-for-data-science 
 

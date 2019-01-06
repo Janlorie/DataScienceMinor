@@ -6,7 +6,7 @@ to the project aswell as individual efforts.
 # Readers guide 
 This page includes an introduction to the subjects that are mentioned in this repository. 
 It is composed of three components. The courses, the Data science components and the project specific items. 
-___
+
 
 ## Courses
 The courses that I have done for this minor have 2 sources, one being Datacamp and the other being Coursera. 
@@ -14,12 +14,12 @@ These courses have both taught me a lot about datascience, and therefore helped 
 made in the field and the project.
 
 ### Datacamp
-Starting with datacamp. The approach to these courses was very practical. 
+Starting with Datacamp. The approach to these courses was very practical. 
 They usually taught e very specific part of data science and how you could implement this in code. 
 Already having some experience in Python, some of there courses were a nice refresher 
 while others taught me a lot.
 
-In the datacamp document I explain per course what every one of 
+In the Datacamp document I explain per course what every one of 
 them has served me and how it helped me with the project.
 
 [Link to Datacamp document](Courses/Datacamp.md)
@@ -35,7 +35,7 @@ learning process. The specific course is Machine Learning by Andrew NG, the foun
 
 [Link to Coursera document](Courses/Coursera.md)<br>
 
-___
+
 
 ## Data Science Components
 The components mentioned below are subcategories of datascience
@@ -44,29 +44,35 @@ the project or have been experimented with individually.
 
 ### Data collection 
 introduction
+
 [link to data collection document](Examples/Data%20Collection.md)<br>
 
 ### Data Preparation
 introduction
+
 [link to Data Preparation document](Examples/Data%20Preparation.md)<br>
 
 ### Data Visualisation
 introduction
+
 [link to Data Visualisation document](Examples/Data%20Visualisation.md)<br>
 
 ### Diagnostics of the Learning Process
 introduction
+
 [link to Diagnostics document](Examples/Diagnostics%20of%20the%20Learning%20Process.md)<br>
 
 ### Evaluation
 introduction
+
 [link to Evaluation document](Examples/Evaluation.md)<br>
 
 ### Predictive Models
 introduction
+
 [link to Predictive Models document](Examples/Predictive%20Models.md)<br>
 
-___
+
 
 ## Project
 ### Presentations
