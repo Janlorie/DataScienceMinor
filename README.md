@@ -10,13 +10,14 @@ It is composed of three components. The courses, the data science components and
 
 ## Courses
 The courses that I have done for this minor have 2 sources, one being Datacamp and the other being Coursera. 
-These courses have both taught me a lot about data science, and therefore helped me with the progress I have 
+These courses have both taught me a lot about data 
+science, and therefore helped me with the progress I have 
 made in the field and the project.
 
 ### Datacamp
 Starting with Datacamp. The approach to these courses was very practical. 
-They usually taught e very specific part of data science and how you could implement this in code. 
-Already having some experience in Python, some of there courses were a nice refresher 
+They usually taught a very specific part of data science and how you could implement this in code. 
+Already having some experience in Python, some of their courses were a nice refresher 
 while others taught me a lot.
 
 In the Datacamp document I explain per course what every one of 
@@ -25,7 +26,7 @@ them has served me and how it helped me with the project.
 [Link to Datacamp document](Courses/Datacamp.md)
 
 Screenshot of completed datacamp courses
-![alt text](Resources/Images/CompletedDatacamp.png "Completed Datacamp Courses")
+![alt text](Resources/Images/DataCampCoursesC.png "Completed Datacamp Courses")
 <br>
 
 ### Coursera 
@@ -105,6 +106,12 @@ School Week | Datum | Link
 15  | 17-12-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.12.17%C%Presentatie.pptx)
 17  | 21-12-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.12.21%C%Presentatie.pptx)
 
+### Scrum
+In the first part of the project, we worked with SCRUM.
+This later turned out to be not that practical for us as a group. Regardless, 
+I will discuss a few SCRUM tasks I have worked on. 
+
+[link to Scrum Document](Examples/Scrum.md)
 
 ### Extra
 introduction
