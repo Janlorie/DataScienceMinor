@@ -101,7 +101,7 @@ visualizations and quantitative by summaries, averages, means etc. The second pa
 exercises to think probabilistically divided in discrete variables and continuous variables. 
 
 ### Improvements by this course
-This course has not specifically contributes to certain tasks. 
+This course has not specifically contributed to certain tasks. 
 However I did find this more theoretical approach very interesting. 
 
 ## Supervised Learning with scikit-learn
