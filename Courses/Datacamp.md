@@ -123,33 +123,79 @@ count_vect = CountVectorizer(analyzer='word', token_pattern=r'\w{1,}', max_df=1.
         xtrain_count = count_vect.transform(self.X_train)
 ```
 
-Sklearn includes a [CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) class which is implemented in just 3 lines of code. This allows for fast and
+Sklearn includes a [CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) 
+class which is implemented in just 3 lines of code. This allows for fast and
 easy experimenting with the features. We didn't discover this from the course but it has lead us to it. 
 
 ## Cleaning Data in Python
 [link to course on Data Camp](https://www.datacamp.com/courses/cleaning-data-in-python)
-
-
+The cleaning data in python course goes into cleaning data. 
+It's divided in exploring, tidying, combining and cleaning data. Each of these subjects cover a part of data cleaning, 
+in order. Exploring the data to get to know if and what needs cleaning. Tidying to align everything properly. Combining 
+data for fragmented data. Last, actually cleaning the data, manipulating the data on point or collection level.
 
 ### Improvements by this course
+This course delivered me practical steps to go about data cleaning. Since the first phase of the project revolved 
+around data cleaning, this course served me and my project group well.
 
+An example of implemented data cleaning used in the course is removing duplicates. This was an easy task in the course: 
+
+```python
+# Drop all the duplicates from countries
+countries = countries.drop_duplicates()
+```
+
+Whereas on our dataset in the project we found out that we had duplicates in the process of labeling. 
+These duplicates were nested in the internal forward mails in the data. So in our project we had to 
+find these forwards and remove them from the set. A detailed example is be provided in the data preparation file
 
 
 ## Python Data Science Toolbox (Part 1)
 [link to course on Data Camp](https://www.datacamp.com/courses/python-data-science-toolbox-part-1)
+This course touches on more advances uses of Python than the introduction. It expands on the knowledge of the 
+introduction course. It includes writing functions, nested functions, explanations of arguments, scopes, lambda 
+and last but not least error handling. 
 
 ### Improvements by this course
+As earlier mentioned, I already had some Python experience. The topics practised in this course, were known to me. 
+However still provided a nice refreshing. The completion of the course did not directly result in tasks being created 
+or completed in the project. The concepts in this course, did. Creating functions and 
+error handling are present in the project.
 
+For example, in the featuremetrics processor, the simpplest implementations of a function: 
+
+```python
+def get_precision_score(predictions, correct_classifications):
+    return metrics.precision_score(correct_classifications, predictions)
+```
+
+The a part of the information from the course is included in the above example. 
 
 
 ## Python Data Science Toolbox (Part 2)
 [link to course on Data Camp](https://www.datacamp.com/courses/python-data-science-toolbox-part-2)
+In the second part of the Python data science toolbox, the exercises expand on the part 1 acquired knowledge. 
+It teaches iterations, list comprehensions and generators.
 
 ### Improvements by this course
+The loops taught in this course were not new to me but have been included all over the project. Looping over the 
+dataset for pretty much every interaction with the data. 
 
+For example, for getting the counts of every category in the dataset. Looping through all the files:
 
+```python
+for csv in csv_files_list:
+    df = self.read_file(csv)
+    files_with_counts.append({'name': csv, 'count': df.shape[0]})
+```
 
 ## Intermediate Python for Data Science
 [link to course on Data Camp](https://www.datacamp.com/courses/intermediate-python-for-data-science)
+The intermediate Python course, it teaches a lot of basic knowledge on how to use Python for data science. Using 
+Matplotlib to visualize data. Using Dictionaries, Pandas dataframe to an extent not discussed in other courses. 
+Logical statements to filter specific data points among other uses. It explains loops which have also been taught 
+in the python data science toolbox part 2.
 
 ### Improvements by this course
+Most of the contents of this course is also basic programming knowledge. Therefore, the completion hasn't 
+contributed to specific results. The concepts taught in the course have done so.
