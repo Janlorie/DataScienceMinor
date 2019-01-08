@@ -123,8 +123,6 @@ count_vect = CountVectorizer(analyzer='word', token_pattern=r'\w{1,}', max_df=1.
         xtrain_count = count_vect.transform(self.X_train)
 ```
 
-![alt](../Resources/Images/sentence-classification.gif) 
-
 Sklearn includes a [CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) class which is implemented in just 3 lines of code. This allows for fast and
 easy experimenting with the features. We didn't discover this from the course but it has lead us to it. 
 
