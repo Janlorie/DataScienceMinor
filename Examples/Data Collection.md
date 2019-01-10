@@ -1,4 +1,4 @@
-#Data Collection
+# Data Collection
 The collection of data is where data science starts. To be able to ask any questions about data, it needs 
 to be present. The collection of data can be done numerous ways. It can already be existent and be retrieved from an 
 external source. In some cases the data has to be manually retrieved for example interviews or manual measurements. 
