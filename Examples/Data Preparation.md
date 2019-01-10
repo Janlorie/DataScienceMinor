@@ -19,6 +19,7 @@ What feature preparation is and why it is necessary in text classification
 
 ### Creating count vectors 
 
+
 #### In code 
 
 #### Result

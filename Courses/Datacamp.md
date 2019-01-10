@@ -14,8 +14,8 @@ expand our knowledge on data science as a whole. Below is a screenshot of the co
 ## Importing Data in Python (Part 1)
 [link to course on Data Camp](https://www.datacamp.com/courses/importing-data-in-python-part-1)
 
-This course is based on as the name suggests, importing data. During the course you get excercises for importing 
-flat files, pickled files, spreadsheets and relational databases
+This course is based on as the name suggests, importing data. During the course you get exercises for importing 
+flat files, pickled files, spreadsheets and relational databases.
 
 ### Improvements by this course
 This course helped us discover an easy way to import the delivered data for the project as well as 

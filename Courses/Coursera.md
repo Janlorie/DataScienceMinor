@@ -1,4 +1,4 @@
-#Coursera Machine Learning course
+# Coursera Machine Learning course
 [link to the course](https://www.coursera.org/learn/machine-learning)
 The machine learning course on Coursera is taught by Andrew NG, the co-founder of the platform and a professor at
 Stanford University. The course is taught with a more theoretical approach. The mathematics behind concepts are discussed and explained 
@@ -10,18 +10,18 @@ provided in those documents. The concepts taught in the course however will be l
 
 I have not completed all the 'weeks' in the course. The ones I did, are listed below.
 
-####week 1
+#### week 1
 * linear regression
 * Gradient descent
 
-####week 2
+#### week 2
 * Multiple features 
 * Polynomials 
 * Gradient descent for multivariate
 * Normal Equation
 
 
-####week 3
+#### week 3
 * Classification
 * Hypothesis representation
 * Descision Boundary
@@ -32,7 +32,7 @@ I have not completed all the 'weeks' in the course. The ones I did, are listed b
 * Regularized Linear Regression
 * Regularized Logistic Regression
 
-####week 6
+#### week 6
 * Evaluating a Learning Algorithm
 * Model selection
 * Bias vs Variance
