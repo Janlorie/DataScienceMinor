@@ -49,7 +49,7 @@ The result of this code is the image below. It allowed us to see the scores for 
 ![Confusion Matrix Example](../Resources/Images/Confusion_matrix_example_1.png)
 
 ### Counts per month
-The visualization example below was one of the firsts global insights we created in the extended dataset. 
+The visualization example below was one of the firsts global insights we created in the extended data set. 
 After receiving this we wanted to visualize some statistics on the complete set. 
 By extracting the amount of emails per month per category, we were able to create the graph below. 
 
@@ -98,7 +98,7 @@ The result of the above explained code is this graph.
 A word web is a way of visualizing the topics we retrieved from NMF and/or LDA. These wordwebs are as the name 
 suggests, webs of words. To actually make these wordwebs, I found a package wordclouder. This actually rendered a 
 wordweb based on a corpus. Since the topics retrieved from LDA were words, I had to make a function that got the 
-counts of the topic words and created a corpus by appending the words as many times as they occur in the dataset.
+counts of the topic words and created a corpus by appending the words as many times as they occur in the data set.
 
 #### In code 
 ```python

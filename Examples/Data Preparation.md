@@ -6,7 +6,7 @@ possible and normalizing the data. Implementing the preparing of features was a 
 the package we used, sklearn. 
 
 ## Data Cleaning 
-Starting with data cleaning. This process became an obvious task after analyzing the first dataset. 
+Starting with data cleaning. This process became an obvious task after analyzing the first data set. 
 It included double emails, internal emails, emptied tags etc. We started this process by actually getting the 
 email body from the text content. 
 
@@ -52,7 +52,7 @@ We applied this function to every email and appended this to a list or dataframe
 
 
 ### Cleaning of the files itself 
-Before signing the NDA we asked to receive the following dataset in a different format, preferrably a CSV. We did 
+Before signing the NDA we asked to receive the following data set in a different format, preferrably a CSV. We did 
 receive the rest of the data in this format but it contained some extra data from the export in every file. To 
 split this we simply read every CSV as a text file and splitted on 'CATID', then exported the value of index 1 in the 
 list of the result as a new CSV. 

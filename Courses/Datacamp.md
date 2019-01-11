@@ -145,7 +145,7 @@ An example of implemented data cleaning used in the course is removing duplicate
 countries = countries.drop_duplicates()
 ```
 
-Whereas on our dataset in the project we found out that we had duplicates in the process of labeling. 
+Whereas on our data set in the project we found out that we had duplicates in the process of labeling. 
 These duplicates were nested in the internal forward mails in the data. So in our project we had to 
 find these forwards and remove them from the set. A detailed example is be provided in the data preparation file
 
@@ -179,9 +179,9 @@ It teaches iterations, list comprehensions and generators.
 
 ### Improvements by this course
 The loops taught in this course were not new to me but have been included all over the project. Looping over the 
-dataset for pretty much every interaction with the data. 
+data set for pretty much every interaction with the data. 
 
-For example, for getting the counts of every category in the dataset. Looping through all the files:
+For example, for getting the counts of every category in the data set. Looping through all the files:
 
 ```python
 for csv in csv_files_list:

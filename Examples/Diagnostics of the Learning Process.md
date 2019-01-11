@@ -24,6 +24,15 @@ find out most of the solutions to problems we had, we read a lot and tried a lot
 Jeroens lessons specifically taught me different views on the same subjects as coursera. These different views 
 provided a broader understanding of the taught concepts, this did help in the learning process. 
 
+## Communication
+The communication between project group peers was good. There were no limitations regarding communication. Everybody
+felt and was approachable and willing to share and or help progress the project.
+
+## Document Sharing
+The document sharing we set up was through sharepoint, with Word online as platform to edit documents. This was not a 
+good experience and limited us a number of times where files got corrupted, working on the same document together was 
+not possible as well as the layout not displaying properly across our computers. I would not use this service again. 
+
 ## Conclusion
 The different sources of information and different types of tasks formed a well thought out process. All pieces 
 were placed right, in my experience. 

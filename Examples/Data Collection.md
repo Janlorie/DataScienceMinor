@@ -68,7 +68,7 @@ r = requests.get('https://api.github.com/events').json()
 
 The result in API calls is in JSON with most API calls. The code above is an example of a JSON response.
 
-### Retrieving sentences from dataset 
+### Retrieving sentences from data set 
 The project data set was a big collection of emails. We needed sentences to be able to classify if something is a 
 question or not. This 'collecting' of sentences can be classified as processing and collection as well, because it is 
 retrieving something. Therefore this task is mentioned in this document. 
@@ -79,7 +79,7 @@ Als ik inkomensdata over buurten wil opvragen via Statline, krijg ik constant ee
 URL:
 http://statline.cbs.nl/Statweb/selection/?VW=T&DM=SLNL&PA=81903NED&D1=0-10%2c26-32%2c88&D2=2018-2023&D3=1&HDR=T&STB=G1%2cG2
 Aangezien jullie gepubliceerde wijken-en-buurten Excel files geen inkomensdata bevatten, zou ik deze graag via Statline 
-willen opvragen. Vanaf welke computer ik het ook probeer, deze dataset blijft een 404 foutmelding geven. 
+willen opvragen. Vanaf welke computer ik het ook probeer, deze data set blijft een 404 foutmelding geven. 
 Wat kan ik het beste doen?
 ```
 
@@ -99,7 +99,7 @@ nltk.sent_tokenize(email, 'dutch')
 'Als ik inkomensdata over buurten wil opvragen via Statline, krijg ik constant een 404 foutmelding.', 
 'Dit gaat via deze URL:  http://statline.cbs.nl/Statweb/selection/?VW=T&DM=SLNL&PA=81903NED&D1=0-10%2c26-32%2c88&D2=2018-2023&D3=1&HDR=T&STB=G1%2cG2', 
 'Aangezien jullie gepubliceerde wijken-en-buurten Excel files geen inkomensdata bevatten, zou ik deze graag via Statline willen opvragen.',
-'Vanaf welke computer ik het ook probeer, deze dataset blijft een 404 foutmelding geven.', 
+'Vanaf welke computer ik het ook probeer, deze data set blijft een 404 foutmelding geven.', 
 'Wat kan ik het beste doen?'
 ]
 ```
@@ -157,7 +157,7 @@ the explanation:
 * Write these statistics down
 
 #### Result
-Doing this process daily for x amount of time could result in a dataset as such: 
+Doing this process daily for x amount of time could result in a data set as such: 
 
 Date | Temperature | Wind Speed | Wind Direction | Humidity |
 -----| ------------| -----------| ---------------| ---------|
