@@ -847,6 +847,7 @@ Fitting a line to this data can be achieved in several ways. But to serve the pu
 just state state that the function that fits this data perfectly is y = 2x+1. 
 
 This function would look like this in a plot
+
 ![Linear regression example](Resources/Images/LR-Example-Chart.png)
 
 ### Polynomial
