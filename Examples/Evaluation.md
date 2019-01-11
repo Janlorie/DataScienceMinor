@@ -4,10 +4,26 @@ Each of these explained by example and how to take action and result after actio
 
 ## Bias
 ### Problem
-The problem in bias is that the model is too simple to actually fit the data.
+The problem in bias is that the model is too simple to actually fit the data. An example for this would be the tests 
+I have done on skewed data. For these tests I needed balanced data for all classifications. The problem with this is 
+that we did not have many examples for 2 of the 4 classes in our data. It was good enough to search for the skewed 
+data tests, but as a model it would not be sufficient. We only had 472 Training examples for this test. 
 
-#### Example
+With such limited data, the model did perform not as well as the full on version with about 5000 training examples.
+The scores, even with a balanced dataset 118 examples across the classifications, were significantly lower. 
+Below the data for different models on different ratios. The scores in the table are the F1 Scores.
 
+ratio| 	Logistic Regression	| Multinomial NB | Complement NB
+---|---|---|---|
+1         |0.66	|0.71 |0.71
+2	      |0.60	|0.64 |0.59
+3	      |0.65	|0.57 |0.54
+4	      |0.74	|0.59 |0.49
+5	      |0.68	|0.56 |0.53
+6	      |0.76	|0.57 |0.55
+Average   |0.68	|0.61 |0.57
+
+![Graph of scores 3 vs rest](../Resources/Images/Scores-3-VS-Rest.png)
 
 ### Solution
 Solutions to High bias are: 
@@ -15,6 +31,15 @@ Solutions to High bias are:
 * Add polynomials
 * Reduce Regularization
 
+This can be displayed by the F1-scores on the model with all training examples.
+Below a table for the best results for the Logistic Regression, Multinomial and Complement NB. 
+
+Logistic Regression | Multinomial NB | Complement NB
+:---:|:---:|:---:
+0.81|0.75|0.70
+
+These results are with each, more than 10% increased on the cross validation score. So we can conclude that adding 
+more data does indeed result in better scores if the model is biased.
 
 ## Variance
 ### Problem
@@ -22,7 +47,11 @@ The problem with variance is a model that is too fit on the data. The model does
 or in the scope of experimenting, on the test data. 
 
 #### Example
+In the first few weeks we encountered this problem. We made a mistake with scoring the model and thought that the 
+score we retrieved was on our test set but it actually was on our training set. This caused us to tune our model wrong. 
+Which we later found out and retuned the models we did have. 
 
+Unfortunately I was not able to retrieve the code associated with this problem we had. 
 
 ### Solution
 The solutions to variance are: 
@@ -30,7 +59,7 @@ The solutions to variance are:
 * Apply regularization
 * Use less features
 
-When these solutions are applied. The model will perform better on the test set. 
+When these solutions are applied. The model will perform better on the test if the problem was high variance set. 
 
 ## Evaluation metrics 
 Scoring models can be done in a variety of ways. Each of these scores serve to display a different type of 
@@ -80,3 +109,5 @@ from sklearn import metrics
 def get_recall(predictions, correct_classifications):
     return metrics.recall_score(correct_classifications, predictions)
 ```
+
+
