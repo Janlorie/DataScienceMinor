@@ -33,8 +33,8 @@ the scores of the models and extra examples can be provided.
 - [Project](#project)
   * [Presentations](#presentations)
   * [SCRUM](#scrum)
-  * [Extra](#extra)
-      - [Classification Tooling to classify faster](#classification-tooling-to-classify-faster)
+- [Extra](#extra)
+  * [Classification Tooling to classify faster](#classification-tooling-to-classify-faster)
 # Courses
 The courses that I have done for this minor have 2 sources, one being Datacamp and the other being Coursera. 
 These courses have both taught me a lot about data 
