@@ -1,7 +1,6 @@
 # Evaluation 
-The part of the field to determine which step is next to progress.
+The part of the field to determine which how a model performs and how to take action.
 Each of these explained by example and how to take action and result after action 
-
 
 ## Bias
 ### Problem

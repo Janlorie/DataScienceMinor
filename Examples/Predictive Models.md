@@ -13,7 +13,7 @@ Regression is a concept where you try to regress data to a function. You try to 
 smallest error.
 
 ### Linear
-Linear regression is the simpelest form of regression where you regress data to a linear line. The function for such 
+Linear regression is the  form of regression where you regress data to a linear line. The function for such 
 a line has a format of y= ax + b. 
 
 #### Example
@@ -40,7 +40,7 @@ example of this is a binary classifier that either outputs 1 or zero.
 #### Data
 #### Visual
 
-### Descision Boundary
+### Decision Boundary
 Classification can also be done with specific types of regression, such as Logistic regression. These models put out 
 a chance of one of the values which then is translated to one of the discrete values. 
 
