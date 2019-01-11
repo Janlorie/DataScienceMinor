@@ -103,6 +103,3 @@ def count_vectors(all_text, X, amount_features=None):
 
 For all of these instances we created a class, the FeaturePreparator with the necessary parameters. The class contains 
 functions for count_vectors, TFIDF on word level, TFIDF on n-gram level, TFIDF on character level.
-
-## Non project feature preparation ( non text classification feature preparation)
-

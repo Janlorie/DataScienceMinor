@@ -31,11 +31,13 @@ The result of this task was the research question we came up with during this we
 This ticket was made to analyze the data we received from our project owner. 
 The data was given in a  txt file with no explanation of the structure. So we had to do our analyses the file by ourself and figure out the way the file was dumped from their database. 
 
-
-
 ### Process:
 We started by opening the file in a text editor to get an idea of the structure. 
 After some time we noticed it was a dump of emails containing the original questions asked to our project owner and replies from the people who answer their questions. For us the goal of this task was to find a specific separator to filter out the questions asked. 
 
 ### Result:
 In the file we found that the word: Vraag:  (question in dutch) was a separator that we could use to filter out the asked question. After this separator the questions was noted and it would end with the word: Category. This could be used as a second separator to filter out the original question. With this result we could start our next task to build a data cleaner to filter out all the asked questions from the datafile. 
+
+
+We did not use the SCRUM method during the whole project. During the 6th sprint we discussed how useful it has been
+and would still be to continue using the SCRUM tasks and came to the conclusion it would be better not to.
