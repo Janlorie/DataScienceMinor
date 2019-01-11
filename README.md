@@ -13,115 +13,28 @@ the scores of the models and extra examples can be provided.
 - [Courses](#courses)
   * [Datacamp Courses](#datacamp-courses)
     + [Importing Data in Python (Part 1)](#importing-data-in-python--part-1-)
-      - [Improvements by this course](#improvements-by-this-course)
     + [Introduction to Python](#introduction-to-python)
-      - [Improvements by this course](#improvements-by-this-course-1)
     + [Pandas Foundations](#pandas-foundations)
-      - [Improvements by this course](#improvements-by-this-course-2)
     + [Introduction to Data Visualization with Python](#introduction-to-data-visualization-with-python)
-      - [Improvements by this course](#improvements-by-this-course-3)
     + [Statistical Thinking in Python (Part 1)](#statistical-thinking-in-python--part-1-)
-      - [Improvements by this course](#improvements-by-this-course-4)
     + [Supervised Learning with scikit-learn](#supervised-learning-with-scikit-learn)
-      - [Improvements by this course](#improvements-by-this-course-5)
     + [Cleaning Data in Python](#cleaning-data-in-python)
-      - [Improvements by this course](#improvements-by-this-course-6)
     + [Python Data Science Toolbox (Part 1)](#python-data-science-toolbox--part-1-)
-      - [Improvements by this course](#improvements-by-this-course-7)
     + [Python Data Science Toolbox (Part 2)](#python-data-science-toolbox--part-2-)
-      - [Improvements by this course](#improvements-by-this-course-8)
     + [Intermediate Python for Data Science](#intermediate-python-for-data-science)
-      - [Improvements by this course](#improvements-by-this-course-9)
-    + [Coursera](#coursera)
-      - [week 1](#week-1)
-      - [week 2](#week-2)
-      - [week 3](#week-3)
-      - [week 6](#week-6)
-  * [Data Science Components](#data-science-components)
-    + [Data Collection](#data-collection)
-      - [Examples](#examples)
-        * [Retrieving from an API](#retrieving-from-an-api)
-          + [Process](#process)
-          + [Result](#result)
-        * [Retrieving sentences from data set](#retrieving-sentences-from-data-set)
-          + [Example email](#example-email)
-          + [Process](#process-1)
-          + [Result](#result-1)
-        * [Collecting meta-data](#collecting-meta-data)
-          + [Result](#result-2)
-        * [Manual observations](#manual-observations)
-          + [Process](#process-2)
-          + [Result](#result-3)
-    + [Data Preparation](#data-preparation)
-      - [Data Cleaning](#data-cleaning)
-      - [Retrieving the email](#retrieving-the-email)
-        * [Example email](#example-email-1)
-        * [Process](#process-3)
-        * [Cleaning of the files itself](#cleaning-of-the-files-itself)
-        * [Cleaning of the sentences](#cleaning-of-the-sentences)
-      - [Feature Preparation](#feature-preparation)
-    + [Visualization](#visualization)
-      - [Confusion matrix](#confusion-matrix)
-        * [In code](#in-code)
-        * [Result](#result-4)
-      - [Counts per month](#counts-per-month)
-        * [In code](#in-code-1)
-        * [Result](#result-5)
-      - [Word web](#word-web)
-        * [In code](#in-code-2)
-        * [Result](#result-6)
-    + [Manual Visualization](#manual-visualization)
-      - [Scores](#scores)
-        * [In code](#in-code-3)
-        * [Result](#result-7)
-    + [Diagnostics of the Learning Process](#diagnostics-of-the-learning-process)
-      - [Datacamp](#datacamp)
-      - [Coursera](#coursera-1)
-      - [Project Related](#project-related)
-      - [Other](#other)
-      - [Communication](#communication)
-      - [Document Sharing](#document-sharing)
-      - [Conclusion](#conclusion)
-    + [Evaluation](#evaluation)
-      - [Bias](#bias)
-        * [Problem](#problem)
-        * [Solution](#solution)
-      - [Variance](#variance)
-        * [Problem](#problem-1)
-          + [Example](#example)
-        * [Solution](#solution-1)
-      - [Evaluation metrics](#evaluation-metrics)
-    + [Predictive Modelling](#predictive-modelling)
-      - [Cost functions](#cost-functions)
-    + [Regression](#regression)
-      - [Linear](#linear)
-        * [Example](#example-1)
-      - [Polynomial](#polynomial)
-      - [Regularization](#regularization)
-    + [Classification](#classification)
-      - [Practical Example](#practical-example)
-      - [Code example](#code-example)
-    + [Learning rate](#learning-rate)
-  * [Project](#project)
-    + [Presentations](#presentations)
-    + [SCRUM](#scrum)
-      - [Cleaning data](#cleaning-data)
-        * [Description:](#description-)
-        * [Process:](#process-)
-        * [Result](#result-8)
-      - [Formulating the research question](#formulating-the-research-question)
-        * [Description:](#description--1)
-        * [Process:](#process--1)
-        * [Result:](#result-)
-      - [Analyzing Received Data:](#analyzing-received-data-)
-        * [Description:](#description--2)
-        * [Process:](#process--2)
-        * [Result:](#result--1)
-    + [Extra](#extra)
+  * [Coursera](#coursera)
+- [Data Science Components](#data-science-components)
+  * [Data Collection](#data-collection)
+  * [Data Preparation](#data-preparation)
+  * [Visualization](#visualization)
+  * [Diagnostics of the Learning Process](#diagnostics-of-the-learning-process)
+  * [Evaluation](#evaluation)
+  * [Predictive Modelling](#predictive-modelling)
+- [Project](#project)
+  * [Presentations](#presentations)
+  * [SCRUM](#scrum)
+  * [Extra](#extra)
       - [Classification Tooling to classify faster](#classification-tooling-to-classify-faster)
-        * [The importing](#the-importing)
-        * [The displaying](#the-displaying)
-
 # Courses
 The courses that I have done for this minor have 2 sources, one being Datacamp and the other being Coursera. 
 These courses have both taught me a lot about data 
@@ -274,11 +187,9 @@ An example of implemented data cleaning used in the course is removing duplicate
 # Drop all the duplicates from countries
 countries = countries.drop_duplicates()
 ```
-
 Whereas on our data set in the project we found out that we had duplicates in the process of labeling. 
 These duplicates were nested in the internal forward mails in the data. So in our project we had to 
 find these forwards and remove them from the set. A detailed example is be provided in the data preparation file
-
 
 ### Python Data Science Toolbox (Part 1)
 [link to course on Data Camp](https://www.datacamp.com/courses/python-data-science-toolbox-part-1)
@@ -300,7 +211,6 @@ def get_precision_score(predictions, correct_classifications):
 ```
 
 The a part of the information from the course is included in the above example. 
-
 
 ### Python Data Science Toolbox (Part 2)
 [link to course on Data Camp](https://www.datacamp.com/courses/python-data-science-toolbox-part-2)
@@ -331,7 +241,7 @@ Most of the contents of this course is also basic programming knowledge. Therefo
 contributed to specific results. The concepts taught in the course have done so.
 
 
-### Coursera 
+## Coursera 
 [link to the course](https://www.coursera.org/learn/machine-learning)
 The machine learning course on Coursera is taught by Andrew NG, the co-founder of the platform and a professor at
 Stanford University. The course is taught with a more theoretical approach. The mathematics behind concepts are discussed and explained 
@@ -343,18 +253,17 @@ provided in those documents. The concepts taught in the course however will be l
 
 I have not completed all the 'weeks' in the course. The ones I did, are listed below.
 
-#### week 1
+### week 1
 * linear regression
 * Gradient descent
 
-#### week 2
+### week 2
 * Multiple features 
 * Polynomials 
 * Gradient descent for multivariate
 * Normal Equation
 
-
-#### week 3
+### week 3
 * Classification
 * Hypothesis representation
 * Descision Boundary
@@ -365,7 +274,7 @@ I have not completed all the 'weeks' in the course. The ones I did, are listed b
 * Regularized Linear Regression
 * Regularized Logistic Regression
 
-#### week 6
+### week 6
 * Evaluating a Learning Algorithm
 * Model selection
 * Bias vs Variance
@@ -373,25 +282,24 @@ I have not completed all the 'weeks' in the course. The ones I did, are listed b
 * Regularization
 * Learning curves
 
-
-## Data Science Components
+# Data Science Components
 The components mentioned below are subcategories of data science
 of which the function will be explained by examples. These subcategories have either been a part of 
 the project or have been experimented with individually. 
 
-### Data Collection
+## Data Collection
 The collection of data is where data science starts. To be able to ask any questions about data, it needs 
 to be present. The collection of data can be done numerous ways. It can already be existent and be retrieved from an 
 external source. In some cases the data has to be manually retrieved for example interviews or manual measurements. 
 In some cases it can be a derived data such as meta-data. 
 
 Not all examples mentioned below originated from the project. The ones that are have this clarified in the description. 
-#### Examples
+### Examples
 
-##### Retrieving from an API
+#### Retrieving from an API
 Retrieving the data from an api every day. 
 
-###### Process
+##### Process
 For example retrieving the recent public event on GitHub. This way of getting data is very common and could 
 be used in a variety of ways. We did not use any such way of retrieving data in our project, but it is 
 important to know the possibility.
@@ -404,7 +312,7 @@ import json
 r = requests.get('https://api.github.com/events').json()
 ```
 
-###### Result
+##### Result
 ```json
 {
     "actor": {
@@ -449,12 +357,12 @@ r = requests.get('https://api.github.com/events').json()
 
 The result in API calls is in JSON with most API calls. The code above is an example of a JSON response.
 
-##### Retrieving sentences from data set 
+#### Retrieving sentences from data set 
 The project data set was a big collection of emails. We needed sentences to be able to classify if something is a 
 question or not. This 'collecting' of sentences can be classified as processing and collection as well, because it is 
 retrieving something. Therefore this task is mentioned in this document. 
 
-###### Example email
+##### Example email
 ```text
 Als ik inkomensdata over buurten wil opvragen via Statline, krijg ik constant een 404 foutmelding. Dit gaat via deze 
 URL:
@@ -464,7 +372,7 @@ willen opvragen. Vanaf welke computer ik het ook probeer, deze data set blijft e
 Wat kan ik het beste doen?
 ```
 
-###### Process
+##### Process
 To actually get the sentences from an email body, we apply a nltk function, sent_tokenize to the email body. 
 This is relatively easy. Just import and install the package then run the function with the email body and it 
 returns a list of sentences.
@@ -474,7 +382,7 @@ import nltk
 
 nltk.sent_tokenize(email, 'dutch')
 ```
-###### Result
+##### Result
 ```python
 [
 'Als ik inkomensdata over buurten wil opvragen via Statline, krijg ik constant een 404 foutmelding.', 
@@ -489,7 +397,7 @@ These sentences are easily splitted with the nltk package, specifically the sen_
 was to split the most unuseful text before this tokenization by nltk. Usually it included extra information, 
 emptied tags for the anonymization, formIds, whitespaces among other data.
 
-##### Collecting meta-data
+#### Collecting meta-data
 For example collecting all the data sizes from all the files in a folder. For this example, I used a package glob, 
 to get all the files in a folder. And os.stat to collect metadata from a file. 
 
@@ -507,7 +415,7 @@ for file in csv_files_list:
 print(file_sizes)
 ```
 
-###### Result
+##### Result
 The result in this case is a list of appended file sizes only. To make any useful conclusions, 
 more information could be necessary. 
 
@@ -524,12 +432,12 @@ more information could be necessary.
  2041506, 274046, 472139, 134458, 37261, 666361, 169796, 264141, 1054811, 39823, 504782, 237663, 139183]
 ```
 
-##### Manual observations
+#### Manual observations
 Checking the weather everyday on your weather station and writing it down, is a way of collecting data. 
 This process would take a lot of time and since this data is publicly available, would be redundant but for 
 the explanation:
 
-###### Process
+##### Process
 * Waking up
 * Checking the thermometer
 * Checking the wind speed
@@ -537,7 +445,7 @@ the explanation:
 * Checking the humidity
 * Write these statistics down
 
-###### Result
+##### Result
 Doing this process daily for x amount of time could result in a data set as such: 
 
 Date | Temperature | Wind Speed | Wind Direction | Humidity |
@@ -548,20 +456,20 @@ Date | Temperature | Wind Speed | Wind Direction | Humidity |
 04-12-2018 | 24 | 19 | SW | 4 |
 05-12-2018 | 23 | 3 | NW | 7 |
 
-### Data Preparation
+## Data Preparation
 For this document, the preparation of data includes the cleaning of data and the preparing of features. 
 Data preparation is the process of turning your data into the most optimal information for your predictive model.
 For out project and data set this meant filtering the useless data, cleaning the email itself as much as 
 possible and normalizing the data. Implementing the preparing of features was a rather easy task because of 
 the package we used, sklearn. 
 
-#### Data Cleaning 
+### Data Cleaning 
 Starting with data cleaning. This process became an obvious task after analyzing the first data set. 
 It included double emails, internal emails, emptied tags etc. We started this process by actually getting the 
 email body from the text content. 
 
-#### Retrieving the email
-##### Example email
+### Retrieving the email
+#### Example email
 For this portfolio email I display an English example, however the goal in the project was to retrieve the Dutch 
 topics. The English emails have been filtered. 
 
@@ -577,7 +485,7 @@ Question:
 Hi - is it possible to obtain the unemployment rate for the last 10 years in the entire country and the city of Amsterdam?  Many thanks, Pat
 ```
 
-##### Process
+#### Process
 We attempted to find rules in the syntax that the data was in. After some analysis we found out the best general 
 rule we could set up was: the actual email content starts with 'Question: \n' in the English examples and 'Vraag: \n'
 in the Dutch examples. This is also how we managed to filter the English emails. This rule did not apply at all times, 
@@ -599,7 +507,7 @@ return split[0]
 ```
 We applied this function to every email and appended this to a list or dataframe. 
 
-##### Cleaning of the files itself 
+#### Cleaning of the files itself 
 Before signing the NDA we asked to receive the following data set in a different format, preferrably a CSV. We did 
 receive the rest of the data in this format but it contained some extra data from the export in every file. To 
 split this we simply read every CSV as a text file and splitted on 'CATID', then exported the value of index 1 in the 
@@ -611,7 +519,7 @@ Before the cleaning
 After the cleaning
 ![After the cleaning image](Resources/Images/After-Removal-Export-Data.png)
 
-##### Cleaning of the sentences
+#### Cleaning of the sentences
 example of the cleaning of a sentence
 For cleaning sentences we applied several methods. These include the normalisation of locations, numbers and urls. 
 The removal if diacritics, spaces, punctuation and stopwords. For this example I will enlighten the way we 
@@ -631,7 +539,7 @@ Because we had to check 2 lists with each other, we optimized the speed of this 
 included all of the locations. In this example self.locations was the list of locations and self.sentence is the 
 sentence.
 
-#### Feature Preparation
+### Feature Preparation
 Feature preparation in our project was quite a simple process as mentioned earlier. We used Sklearn for this process 
 which included functions for the types of features we used. We found out how to use these feature preparators by 
 referencing the Sklearn documentation.
@@ -653,18 +561,18 @@ For all of these instances we created a class, the FeaturePreparator with the ne
 functions for count_vectors, TFIDF on word level, TFIDF on n-gram level, TFIDF on character level.
 
 
-### Visualization 
+## Visualization 
 Data visualization is the way to communicate results most efficiently. the goal is to provide insight at the first 
 look. I have performed visualization with plotting as well as manually.  
 
 In the project we diagnosed most actions and progress based on visualizations. Beneath I will elaborate a few of the 
 visualizations that are project related.
 
-#### Confusion matrix
+### Confusion matrix
 A confusion matrix is a matrix that displays the true positives, false positives, true negatives and false negatives 
 in a diagram. We have created these in a normalized way as well as a non-normalized way.
 
-##### In code 
+#### In code 
 To get the matrix data, Sklearn has a function called confusion_matrix. The parameters passed to this function are the 
 predictions and valid answers.
 
@@ -697,17 +605,17 @@ plt.xlabel('Predicted label')
 plt.tight_layout()
 ```
 
-##### Result
+#### Result
 The result of this code is the image below. It allowed us to see the scores for every category in a clear way. 
 
 ![Confusion Matrix Example](Resources/Images/Confusion_matrix_example_1.png)
 
-#### Counts per month
+### Counts per month
 The visualization example below was one of the firsts global insights we created in the extended data set. 
 After receiving this we wanted to visualize some statistics on the complete set. 
 By extracting the amount of emails per month per category, we were able to create the graph below. 
 
-##### In code
+#### In code
 The code associated with this graph will be pasted and explained below. 
 
 ```python
@@ -743,18 +651,18 @@ def get_and_plot_all_categories(self):
     plt.legend(handles=legends)
     plt.show()
 ```
-##### Result
+#### Result
 The result of the above explained code is this graph.
 
 ![Counts Per Month Cumulative](Resources/Images/Counts-per-month.jpeg)
 
-#### Word web
+### Word web
 A word web is a way of visualizing the topics we retrieved from NMF and/or LDA. These wordwebs are as the name 
 suggests, webs of words. To actually make these wordwebs, I found a package wordclouder. This actually rendered a 
 wordweb based on a corpus. Since the topics retrieved from LDA were words, I had to make a function that got the 
 counts of the topic words and created a corpus by appending the words as many times as they occur in the data set.
 
-##### In code 
+#### In code 
 ```python
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
@@ -777,7 +685,7 @@ def create_wordcloud(self, max_words, wordcloud_corpus):
     plt.clf()
     plt.cla()
 ```
-##### Result
+#### Result
 ![Wordcloud-Example](Resources/Images/Wordcloud-Example.png)
 
 ### Manual Visualization
@@ -798,7 +706,7 @@ The resulting graph with the data from the export displayed above.
 
 ![the Graph for the above displayed data](Resources/Images/Scores-Visualization.jpeg)
 
-### Diagnostics of the Learning Process
+## Diagnostics of the Learning Process
 During this minor I learned more on machine learning than I would have thought. Since the concept of AI and ML 
 seemed very abstract I expected the course to include a lot of theory. The fact that a lot of it came down to 
 practical implementations and experiments, causes me to be even more interested in the subject. 
@@ -806,44 +714,44 @@ practical implementations and experiments, causes me to be even more interested 
 Unfortunately I cannot point to any real evidence of progression of learning other than the results provided in the 
 form of examples. I had next to no knowledge of most of these subjects and do now. 
 
-#### Datacamp
+### Datacamp
 Datacamp has started this practical process. The approachable way of teaching, appeals to me. The assigned courses 
 came to be very useful as well. This process did not run into any specific problems, learning related. The courses 
 followed up well and expanded on each others knowledge.
 
-#### Coursera
+### Coursera
 Coursera provided a nice background to Datacamps practical work. The theory taught had an understanding of the 
 concepts as result. As opposed to datacamp where it was not understanding how it worked but how  certain concepts 
 can be implemented.
 
-#### Project Related 
+### Project Related 
 The tasks and experiments in the project were a key component to a lot of the understanding. Because we had to 
 find out most of the solutions to problems we had, we read a lot and tried a lot of different things.
 
-#### Other
+### Other
 Jeroens lessons specifically taught me different views on the same subjects as coursera. These different views 
 provided a broader understanding of the taught concepts, this did help in the learning process. 
 
-#### Communication
+### Communication
 The communication between project group peers was good. There were no limitations regarding communication. Everybody
 felt and was approachable and willing to share and or help progress the project.
 
-#### Document Sharing
+### Document Sharing
 The document sharing we set up was through sharepoint, with Word online as platform to edit documents. This was not a 
 good experience and limited us a number of times where files got corrupted, working on the same document together was 
 not possible as well as the layout not displaying properly across our computers. I would not use this service again. 
 
-#### Conclusion
+### Conclusion
 The different sources of information and different types of tasks formed a well thought out process. All pieces 
 were placed right, in my experience. 
 
 
-### Evaluation
+## Evaluation
 The part of the field to determine which how a model performs and how to take action.
 Each of these explained by example and how to take action and result after action 
 
-#### Bias
-##### Problem
+### Bias
+#### Problem
 The problem in bias is that the model is too simple to actually fit the data. An example for this would be the tests 
 I have done on skewed data. For these tests I needed balanced data for all classifications. The problem with this is 
 that we did not have many examples for 2 of the 4 classes in our data. It was good enough to search for the skewed 
@@ -865,7 +773,7 @@ Average   |0.68	|0.61 |0.57
 
 ![Graph of scores 3 vs rest](Resources/Images/Scores-3-VS-Rest.png)
 
-##### Solution
+#### Solution
 Solutions to High bias are: 
 * Add more features
 * Add polynomials
@@ -881,19 +789,19 @@ Logistic Regression | Multinomial NB | Complement NB
 These results are with each, more than 10% increased on the cross validation score. So we can conclude that adding 
 more data does indeed result in better scores if the model is biased.
 
-#### Variance
-##### Problem
+### Variance
+#### Problem
 The problem with variance is a model that is too fit on the data. The model does not perform as well generally,
 or in the scope of experimenting, on the test data. 
 
-###### Example
+##### Example
 In the first few weeks we encountered this problem. We made a mistake with scoring the model and thought that the 
 score we retrieved was on our test set but it actually was on our training set. This caused us to tune our model wrong. 
 Which we later found out and retuned the models we did have. 
 
 Unfortunately I was not able to retrieve the code associated with this problem we had. 
 
-##### Solution
+#### Solution
 The solutions to variance are: 
 * Use more data
 * Apply regularization
@@ -901,16 +809,16 @@ The solutions to variance are:
 
 When these solutions are applied. The model will perform better on the test if the problem was high variance set. 
 
-#### Evaluation metrics 
+### Evaluation metrics 
 Scoring models can be done in a variety of ways. Each of these scores serve to display a different type of 
 evaluation for a model.The scores we used mainly to score our model are explained below. 
 
 
-### Predictive Modelling
+## Predictive Modelling
 Predictive modelling is the actual code that is the implementation of machine learning or AI. These are ways to 
 find correlations between found parameters or features in your data set. 
 
-#### Cost functions
+### Cost functions
 A big part in predictive modelling is the understanding of the cost function. There are several types of cost 
 functions for types of scoring. The cost functions generally is a function that calculates the error for a 
 specific model. It does so by getting the cumulative error on the training examples of a model. The function that 
@@ -918,15 +826,15 @@ fits the model iterates over the data to find the function(model) with the small
 
 For our project, we didn't have to write these ourselves, they were included in the functions from scikit-learn. 
 
-### Regression
+## Regression
 Regression is a concept where you try to regress data to a function. You try to fit the data to a line with the 
 smallest error.
 
-#### Linear
+### Linear
 Linear regression is the  form of regression where you regress data to a linear line. The function for such 
 a line has a format of y= ax + b. 
 
-##### Example
+#### Example
 Var1(x) | Output (y)
 ---|---
 0 | 1
@@ -941,14 +849,14 @@ just state state that the function that fits this data perfectly is y = 2x+1.
 This function would look like this in a plot
 ![Linear regression example](Resources/Images/LR-Example-Chart.png)
 
-#### Polynomial
+### Polynomial
 Now, a polynomial is a function that is more complex than a linear function. It includes exponentials and higher 
 polynomial features. This means it can fit more complex data as well. Finding this function however is more complicated. 
 A simple calculation often won't ddo the trick. So there are functions to find the optimal values for fitting data. 
 
 One of these methods is gradient descent. You try to approximate the 0 point for the derivative of the cost function. 
 
-#### Regularization
+### Regularization
 Regularization is a factor in machine learning that penalizes extreme values. This parameter can be passed to 
 create a more generalized model. It adds a weight to the value of features. In case these features get extreme values, 
 the cost they add to the cost function will be big aswell. Since the goal is to minimize that, the optimal function 
@@ -1028,8 +936,8 @@ As you can see, the model performs worse on very small alpha values, as well as 
 large values of alpha. Higher than 3, it overshoots the optimal values. 
 
 
-## Project
-### Presentations
+# Project
+## Presentations
 Every week the progress that the project group made, had to be presented to our peers and teachers. 
 These presentations were done in turns, usually by 2 presenters. I presented about every other
 presentation. The making of the presentation and processing of feedback after the presentations has 
@@ -1053,51 +961,51 @@ School Week | Datum | Link
 15  | 17-12-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.12.17%C%Presentatie.pptx)
 17  | 21-12-2018 | [link to presentation](https://github.com/Janlorie/DataScienceMinor/tree/master/Resources/Presentations/2018.12.21%C%Presentatie.pptx)
 
-### SCRUM 
+## SCRUM 
 During the starting week of our project, we were advised to use SCRUM as a way to track our progress. 
 This document contains a few examples of tasks I have participated in or have completed myself. 
 These tasks will be explained by how they have been useful for the project.
 
-#### Cleaning data
-##### Description:
+### Cleaning data
+#### Description:
 This ticket was made to clean the data we received from our project owner. We had received the data as a text 
 file that included loads of not useful data. After the analysis of data, we were able to clean the data partially. 
-##### Process: 
+#### Process: 
 We started from the analysis, which showed us that the emails included an empty from tag, an empty to tag, 
 a formId and some other attributes and texts that weren’t part of the email. In the process we removed this data by splitting on them and joining the rest of the mails.
 
-##### Result
+#### Result
 This task resulted in a function that was able 
 
 
-#### Formulating the research question
-##### Description:
+### Formulating the research question
+#### Description:
 For this task we had a meeting with our product owner. We discussed the general goal of the project and tried to phrase a research question that corresponded to their wishes.
 
-##### Process: 
+#### Process: 
 To the best of our abilities at the time, we set up a few options to discuss during the meeting with our product owner. During the conversation however, we found out the assignment was different than what we were told. The options we had set up, did contribute to the conversation.  
 
-##### Result: 
+#### Result: 
 The result of this task was the research question we came up with during this week. It has been revised in the meantime. The research question was: “Which data mining and Natural Language Processing methods can be used to filter the most frequently asked questions from unstructured e-mails sent to the Central Bureau of Statistics between 2017 and 2018?”
 
 
-#### Analyzing Received Data:
-##### Description: 
+### Analyzing Received Data:
+#### Description: 
 This ticket was made to analyze the data we received from our project owner. 
 The data was given in a  txt file with no explanation of the structure. So we had to do our analyses the file by ourself and figure out the way the file was dumped from their database. 
 
-##### Process:
+#### Process:
 We started by opening the file in a text editor to get an idea of the structure. 
 After some time we noticed it was a dump of emails containing the original questions asked to our project owner and replies from the people who answer their questions. For us the goal of this task was to find a specific separator to filter out the questions asked. 
 
-##### Result:
+#### Result:
 In the file we found that the word: Vraag:  (question in dutch) was a separator that we could use to filter out the asked question. After this separator the questions was noted and it would end with the word: Category. This could be used as a second separator to filter out the original question. With this result we could start our next task to build a data cleaner to filter out all the asked questions from the datafile. 
 
 We did not use the SCRUM method during the whole project. During the 6th sprint we discussed how useful it has been
 and would still be to continue using the SCRUM tasks and came to the conclusion it would be better not to.
 
-### Extra
-#### Classification Tooling to classify faster
+## Extra
+### Classification Tooling to classify faster
 
 ![Gif](Resources/Images/sentence-classification.gif)
 
@@ -1112,7 +1020,7 @@ On restarting the tool, it begins where you left off.
 
 Below a few code examples: 
 
-##### The importing
+#### The importing
 The importing is done by the Importer from our project. 
 
 ```python
@@ -1128,7 +1036,7 @@ def import_classified_sentences(classified_file):
     return sentences
 ```
 
-##### The displaying
+#### The displaying
 The displaying is done with the Tkinter package. This provides a rather simple way of 
 displaying text as well as others but they weren't necessary for this tool. 
 
