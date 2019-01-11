@@ -9,7 +9,7 @@ It is composed of three components. The courses, the data science components and
 The data used in the project, cannot be provided in this repository because it contains confidential data. Only 
 the scores of the models and extra examples can be provided.
 
-#Table of contents
+# Table of contents
 - [Courses](#courses)
   * [Datacamp Courses](#datacamp-courses)
     + [Importing Data in Python (Part 1)](#importing-data-in-python--part-1-)
